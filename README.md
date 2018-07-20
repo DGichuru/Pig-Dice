@@ -1,6 +1,6 @@
 # Pig Dice
 ## Description
- This is a game where players roll 2 die.It has a set of rules but the player who gets a sum of a hundred first wins the game.
+ This is a game where players roll a dice.It has a set of rules but the player who gets a sum of a hundred first wins the game.
 
  Link to my website:
 ## Author
@@ -13,8 +13,8 @@
 * CSS
 * JavaScript
 ### Rules
-* Each player plays once .
+* Each player plays in turns.
 * The one who reaches sum of a hundred first wins the game.
-* if a player rolls die and gets a sum of two 25 points are added to his sum.
+* If a player rolls dice and gets a result of one his/her current score is returned to zero and passes on to the next player
 ### License
-MIT
+MIT License

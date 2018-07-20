@@ -12,6 +12,9 @@ h1, h3, h4{
   h1{
     margin-bottom: 70px;
   }
+  title{
+    text-decoration-color:blue;
+  }
   
   #turn1, #turn2{
     border-left: 20px solid rgba(140, 214, 21, 0.658);
