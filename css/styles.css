@@ -1,31 +1,43 @@
-#column {
-    display: flex;
-    align-items: center;
-}
-
-#wrapper {
-    width: 400px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.dice {
-    width: 32px;
-    float: left;
-    background-color: rgb(166, 30, 207);
-    border: 1px solid black;
-    padding: 15px;
-    font-size: 24px;
-    text-align: center;
-    margin: 5px;
-    border-radius: 7px;
-}
 
 .container {
     background-image: url(../img/neo.jpeg)
 }
- 
-p {
-
+.jumbotron {
+  background-image: url(../img/neo.jpe)
 }
+ 
+h1, h3, h4{
+    text-align: center;
+  }
+  h1{
+    margin-bottom: 70px;
+  }
+  
+  #turn1, #turn2{
+    border-left: 20px solid rgba(140, 214, 21, 0.658);
+  }
+  
+  #turn2{
+    display:none;
+  }
+  
+  #point, #result1, #result2, #dice{
+    background-color:#cc2cbf;
+    text-align: center;
+    border:1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button#button{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
